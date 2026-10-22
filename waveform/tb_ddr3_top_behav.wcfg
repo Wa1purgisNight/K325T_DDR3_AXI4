@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="20.482187500 us"></ZoomStartTime>
+      <ZoomEndTime time="143.375312501 us"></ZoomEndTime>
+      <Cursor1Time time="122.893125000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/testbench2/sys_clk_i" type="logic">
+      <obj_property name="ElementShortName">sys_clk_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/clk_ref_i" type="logic">
+      <obj_property name="ElementShortName">clk_ref_i</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/ui_clk" type="logic">
+      <obj_property name="ElementShortName">ui_clk</obj_property>
+      <obj_property name="ObjectShortName">ui_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awid" type="array">
+      <obj_property name="ElementShortName">axi_awid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[29:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awlen" type="array">
+      <obj_property name="ElementShortName">axi_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awsize" type="array">
+      <obj_property name="ElementShortName">axi_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awburst" type="array">
+      <obj_property name="ElementShortName">axi_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awlock" type="logic">
+      <obj_property name="ElementShortName">axi_awlock</obj_property>
+      <obj_property name="ObjectShortName">axi_awlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awcache" type="array">
+      <obj_property name="ElementShortName">axi_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awprot" type="array">
+      <obj_property name="ElementShortName">axi_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awqos" type="array">
+      <obj_property name="ElementShortName">axi_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_awready" type="logic">
+      <obj_property name="ElementShortName">axi_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_wdata" type="array">
+      <obj_property name="ElementShortName">axi_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_wstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_wlast" type="logic">
+      <obj_property name="ElementShortName">axi_wlast</obj_property>
+      <obj_property name="ObjectShortName">axi_wlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_wready" type="logic">
+      <obj_property name="ElementShortName">axi_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_bid" type="array">
+      <obj_property name="ElementShortName">axi_bid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_bid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_bresp" type="array">
+      <obj_property name="ElementShortName">axi_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_bready" type="logic">
+      <obj_property name="ElementShortName">axi_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arid" type="array">
+      <obj_property name="ElementShortName">axi_arid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_araddr" type="array">
+      <obj_property name="ElementShortName">axi_araddr[29:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_araddr[29:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arlen" type="array">
+      <obj_property name="ElementShortName">axi_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arsize" type="array">
+      <obj_property name="ElementShortName">axi_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arburst" type="array">
+      <obj_property name="ElementShortName">axi_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arlock" type="logic">
+      <obj_property name="ElementShortName">axi_arlock</obj_property>
+      <obj_property name="ObjectShortName">axi_arlock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arcache" type="array">
+      <obj_property name="ElementShortName">axi_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arprot" type="array">
+      <obj_property name="ElementShortName">axi_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arqos" type="array">
+      <obj_property name="ElementShortName">axi_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_arready" type="logic">
+      <obj_property name="ElementShortName">axi_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_rid" type="array">
+      <obj_property name="ElementShortName">axi_rid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_rdata" type="array">
+      <obj_property name="ElementShortName">axi_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_rresp" type="array">
+      <obj_property name="ElementShortName">axi_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_rlast" type="logic">
+      <obj_property name="ElementShortName">axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">axi_rlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_rready" type="logic">
+      <obj_property name="ElementShortName">axi_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench2/axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">axi_aresetn</obj_property>
+   </wvobject>
+</wave_config>

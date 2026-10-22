@@ -1,0 +1,26 @@
+# Vivado 自动生成目录
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# 日志
+*.jou
+*.log
+*.str
+vivado*.backup.*
+
+# 仿真输出
+*.wdb
+*.vcd
+*.vpd
+xsim.dir/
+
+# 系统临时文件
+Thumbs.db
+.DS_Store
+*~
+*.swp
